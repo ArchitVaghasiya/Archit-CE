@@ -1,3 +1,8 @@
+/*
+    progerammer: Archit vaghasiya
+    date: 2/8/2024
+    aim: Define gread based of obtain marks
+*/
 #include<stdio.h>
 void main()
 {
