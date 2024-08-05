@@ -1,3 +1,8 @@
+/*
+    progerammer: Archit vaghasiya
+    date: 2/8/2024
+    aim: Make a multiplication table
+*/
 #include<stdio.h>
 void main()
 {
