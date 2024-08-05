@@ -1,3 +1,8 @@
+/*
+    progerammer: Archit vaghasiya
+    date: 2/8/2024
+    aim: To find area & perameter
+*/
 #include<stdio.h>
 void main()
 {
