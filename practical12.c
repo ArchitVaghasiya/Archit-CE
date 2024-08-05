@@ -1,3 +1,8 @@
+/*
+    progerammer: Archit vaghasiya
+    date: 2/8/2024
+    aim: To calculate budget of event
+*/
 #include<stdio.h>
 void main()
 {
