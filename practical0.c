@@ -8,14 +8,15 @@ void main()
 {
     int i,j,n,n1,n2,x;
 
-    printf("Enter value of n1:");
-    scanf("%d",&n1);
-     printf("Enter value of n2:");
-    scanf("%d",&n2);
-
+    printf("Enter the value of n:");
+    scanf("%d",&n);
+    
+    n1=(n/2);
+    n2=n-n1;
+    
     for(i=1;i<=n1;i++)
     {
-        for(j=1;j<=(n1-i+1);j++)
+        for(j=(-1);j<=(n1-i+1);j++)
         {
             printf(" ");
         }
