@@ -1,3 +1,8 @@
+/*
+    programmer: Archit Vaghasiya
+    date: 9/8/2024
+    aim: make a dimond pattern
+*/
 #include<stdio.h>
 void main()
 {
@@ -18,7 +23,7 @@ void main()
         {
             printf("*");
         }
-        for(j=5;j<=(n1+i-1);j++)
+        for(j=(n1+1);j<=(n1+i-1);j++)
         {
             printf("*");
         }
