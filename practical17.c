@@ -1,3 +1,8 @@
+/*
+    progerammer: Archit vaghasiya
+    date: 13/9/2024
+    aim: to find seats in theator
+*/
 #include<stdio.h>
 void main()
 {
