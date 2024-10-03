@@ -20,4 +20,8 @@ void main()
     }
 
     printf("T = %d",c);
+
+    A=(float)c/n;
+
+    printf("A=%.2f",A);
 }
