@@ -14,5 +14,10 @@ void main()
         c++
     }
 
-    for
+    for(i=0;i<n;i++)
+    {
+        c=c+S[i];
+    }
+
+    printf("T = %d",c);
 }
