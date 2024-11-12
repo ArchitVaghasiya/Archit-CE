@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int S[25],T,n,H,L,i,j=1,c;
+    int S[25],T,n,H,L,i,j=1,c,max,min;
     float A;
 
     printf("Enter the number of student:");
@@ -9,9 +9,8 @@ void main()
     printf("Enter CCP markes of students\n");
     for(i=0;i<n;i++)
     {
-        printf("Student %d:",j++);
+        printf("Student %d: ",j++);
         scanf("%d",&S[i]);
-        c++
     }
 
     for(i=0;i<n;i++)
@@ -19,9 +18,31 @@ void main()
         c=c+S[i];
     }
 
-    printf("T = %d",c);
+    printf("Total Marks = %d\n",c);
 
     A=(float)c/n;
 
-    printf("A=%.2f",A);
+    printf("Average Marks = %.2f\n",A);
+
+    max=S[0];
+    for(i=0;i<n;i++)
+    {
+        if(S[i]>max)
+        {
+            max=S[i];
+        }
+    }
+     printf("Highest Marks = %d\n",max);
+
+      min=S[0];
+    for(i=0;i<n;i++)
+    {
+        if(S[i]<min)
+        {
+            min=S[i];
+        }
+    }
+     printf("Lowest Marks = %d",min);
+
+
 }
